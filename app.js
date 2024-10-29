@@ -1,6 +1,7 @@
 //! JavaScript Conditional Statements:
 
 //! if + else if + else condition
+
 let age = 15;
 
 if (age > 40) {
@@ -12,8 +13,13 @@ if (age > 40) {
 }
 
 
+
+
+
 //! Switich Condition
+
 let catrgory = 'Motor Cycle';
+
 let carType;
 
 switch (catrgory){
@@ -26,4 +32,7 @@ switch (catrgory){
     default:
         carType = 'Unknown vehicle Category';
 }
+
+
+
 console.log(carType);
